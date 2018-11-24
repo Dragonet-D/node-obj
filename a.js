@@ -18,4 +18,12 @@ app.get("/product", (req, res) => {
   res.render("product");
 });
 
+app.get("/productadd", (req, res) => {
+  res.render("productadd");
+});
+
+app.get("/productedit", (req, res) => {
+  res.render("productedit");
+});
+
 app.listen(3000, "localhost");
