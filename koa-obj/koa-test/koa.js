@@ -1,26 +1,27 @@
-const Koa = require("koa");
-const app = new Koa();
+const koa = require("koa");
+const router = require("koa-router")();
 
-const port = 3001;
+const app = new koa();
 
-// logger
+// log request url
 app.use(async (ctx, next) => {
+  if (ctx.url !== "favicon.ico") {
+    console.log(`Process ${ctx.request.method} ${ctx.request.url}...`);
+  }
   await next();
-  const rt = ctx.response.get('X-Response-Time');
-  console.log(`${ctx.method} ${ctx.url} - ${rt}`);
 });
 
-// x-response-time
-app.use(async (ctx, next) => {
-  const start = Date.now();
-  await next();
-  const ms = Date.now() - start;
-  ctx.set('X-Response-Time',  `${ms}ms`);
+// add url-route
+router.get('/hello/:name', async (ctx, next) => {
+  const name = ctx.params.name;
+  ctx.response.body = `<h1>Hello, ${name}</h1>`
 });
 
-// response
-app.use(async ctx => {
-  ctx.body = 'Hello World';
+router.get('/', async (ctx, next) => {
+  ctx.response.body = '<h1>Index</h1>'
 });
 
-app.listen(port);
+// add router middleware
+app.use(router.routes());
+
+app.listen(3001);
