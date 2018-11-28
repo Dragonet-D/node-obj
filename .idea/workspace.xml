@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e922d6-1370-4532-8c6f-2e9bf3302d99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,12 +17,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/app.js">
+        <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="200">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -54,14 +59,14 @@
         <option value="$PROJECT_DIR$/express-obj/productManage/b.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/backend/app.js" />
+        <option value="$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1100" />
-    <option name="height" value="1890" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="873" />
+    <option name="width" value="1054" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,18 +87,13 @@
             <path>
               <item name="node-obj" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-obj" type="462c0819:PsiDirectoryNode" />
-              <item name="express-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-obj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node-obj" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-obj" type="462c0819:PsiDirectoryNode" />
-              <item name="express-obj" type="462c0819:PsiDirectoryNode" />
-              <item name="productManage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-obj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-obj" type="462c0819:PsiDirectoryNode" />
-              <item name="react-node" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.b.js">
+  <component name="RunManager" selected="Node.js.promis-async.js">
     <configuration name="a.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/a.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -154,8 +154,12 @@
     <configuration name="b.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express-obj/productManage/b.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="promis-async.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.promis-async.js" />
         <item itemvalue="Node.js.b.js" />
         <item itemvalue="Node.js.b.js (1)" />
         <item itemvalue="Node.js.a.js (1)" />
@@ -179,23 +183,26 @@
       <workItem from="1543126263886" duration="479000" />
       <workItem from="1543126826559" duration="3130000" />
       <workItem from="1543238193536" duration="2183000" />
+      <workItem from="1543327439314" duration="1257000" />
+      <workItem from="1543406732926" duration="932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15899000" />
+    <option name="totallyTimeSpent" value="18088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="699" y="0" width="843" height="846" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1994716" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27385378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32152975" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3207283" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32352942" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
@@ -256,8 +263,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
