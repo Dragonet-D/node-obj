@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/ex.js"],"names":["name","getName"],"mappings":";;;;;AAAO,IAAMA,sBAAO,MAAb;AACA,IAAMC,4BAAU,SAAVA,OAAU,GAAM,CAAE,CAAxB","file":"ex.js","sourcesContent":["export const name = \"Luke\";\r\nexport const getName = () => {};"]}

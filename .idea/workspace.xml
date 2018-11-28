@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e922d6-1370-4532-8c6f-2e9bf3302d99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/basic/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/src/ex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/dist/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/src/async.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-obj/koa-test/basic/fourStypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-obj/koa-test/basic/fourStypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-obj/koa-test/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/koa-obj/koa-test/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa-obj/koa-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa-obj/koa-test/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa-obj/koa-test/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/koa-obj/koa-test/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-obj/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-obj/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,19 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/co.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/fourStypes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="81">
+              <caret line="20" selection-start-line="20" selection-end-line="28" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -51,20 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/.babelrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="281">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -84,8 +71,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="268">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/src/async.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/dist/async.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/dist/ex.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -136,11 +150,13 @@
         <option value="$PROJECT_DIR$/koa-obj/koa-test/basic/arrow.js" />
         <option value="$PROJECT_DIR$/koa-obj/koa-test/basic/fourStypes.js" />
         <option value="$PROJECT_DIR$/koa-obj/koa-test/basic/module.js" />
-        <option value="$PROJECT_DIR$/koa-obj/koa-test/.babelrc" />
         <option value="$PROJECT_DIR$/koa-obj/koa-test/index.js" />
-        <option value="$PROJECT_DIR$/koa-obj/koa-test/package.json" />
         <option value="$PROJECT_DIR$/koa-obj/koa-test/src/ex.js" />
         <option value="$PROJECT_DIR$/koa-obj/koa-test/src/index.js" />
+        <option value="$PROJECT_DIR$/koa-obj/koa-test/package.json" />
+        <option value="$PROJECT_DIR$/koa-obj/koa-test/dist/async.js" />
+        <option value="$PROJECT_DIR$/koa-obj/koa-test/src/async.js" />
+        <option value="$PROJECT_DIR$/koa-obj/koa-test/.babelrc" />
       </list>
     </option>
   </component>
@@ -175,6 +191,28 @@
               <item name="node-obj" type="462c0819:PsiDirectoryNode" />
               <item name="koa-obj" type="462c0819:PsiDirectoryNode" />
               <item name="koa-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-obj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-test" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-obj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-obj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="index.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="node-obj" type="b2602c69:ProjectViewProjectNode" />
@@ -226,8 +264,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="Node.js.async.js">
     <configuration name="arrow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/basic/arrow.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="async.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/src/async.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="co.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/basic/co.js" working-dir="$PROJECT_DIR$">
@@ -239,16 +280,13 @@
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/src/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="iterator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/basic/iterator.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.async.js" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.fourStypes.js" />
         <item itemvalue="Node.js.arrow.js" />
         <item itemvalue="Node.js.co.js" />
-        <item itemvalue="Node.js.iterator.js" />
       </list>
     </recent_temporary>
   </component>
@@ -270,24 +308,25 @@
       <workItem from="1543238193536" duration="2183000" />
       <workItem from="1543327439314" duration="1257000" />
       <workItem from="1543406732926" duration="8469000" />
-      <workItem from="1543415326491" duration="2537000" />
+      <workItem from="1543415326491" duration="3625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28162000" />
+    <option name="totallyTimeSpent" value="29250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="698" y="0" width="844" height="847" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25123763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25123763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5037129" side_tool="true" weight="0.32307693" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.31888112" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49628714" visible="true" weight="0.32307693" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49628714" visible="true" weight="0.32307693" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
@@ -391,31 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/fourStypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -429,13 +447,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/dist/ex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="281">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/fourStypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="20" selection-start-line="20" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/src/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/dist/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
