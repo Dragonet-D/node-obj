@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e922d6-1370-4532-8c6f-2e9bf3302d99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/basic/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa-obj/koa-test/basic/promise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="175">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/promise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/iterator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -60,10 +79,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/backend/app.js" />
         <option value="$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js" />
+        <option value="$PROJECT_DIR$/koa-obj/koa-test/basic/a.js" />
+        <option value="$PROJECT_DIR$/koa-obj/koa-test/basic/promise.js" />
+        <option value="$PROJECT_DIR$/koa-obj/koa-test/basic/iterator.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="873" />
     <option name="width" value="1054" />
     <option name="height" value="1058" />
@@ -94,6 +116,13 @@
               <item name="node-obj" type="462c0819:PsiDirectoryNode" />
               <item name="koa-obj" type="462c0819:PsiDirectoryNode" />
               <item name="koa-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-obj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-obj" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-test" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,11 +167,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.promis-async.js">
+  <component name="RunManager" selected="Node.js.promise.js">
     <configuration name="a.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/a.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="a.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express-obj/productManage/a.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="b.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express-obj/productManage/b.js" working-dir="$PROJECT_DIR$">
@@ -157,13 +183,16 @@
     <configuration name="promis-async.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/basic/promise.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.promise.js" />
         <item itemvalue="Node.js.promis-async.js" />
         <item itemvalue="Node.js.b.js" />
         <item itemvalue="Node.js.b.js (1)" />
         <item itemvalue="Node.js.a.js (1)" />
-        <item itemvalue="Node.js.a.js" />
       </list>
     </recent_temporary>
   </component>
@@ -184,24 +213,24 @@
       <workItem from="1543126826559" duration="3130000" />
       <workItem from="1543238193536" duration="2183000" />
       <workItem from="1543327439314" duration="1257000" />
-      <workItem from="1543406732926" duration="932000" />
+      <workItem from="1543406732926" duration="2730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18088000" />
+    <option name="totallyTimeSpent" value="19886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="699" y="0" width="843" height="846" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27385378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2734478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3207283" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3207283" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32352942" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -273,8 +302,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/promis-async.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="175">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/basic/iterator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
