@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "co": "^4.6.0",
-    "node-fetch": "^2.3.0"
-  }
-}

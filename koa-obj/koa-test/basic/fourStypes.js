@@ -17,3 +17,13 @@ readFile((err, data) => {
     console.log(data);
   }
 });
+
+const readAsync = util.promisify(fs.readFile);
+
+async function init() {
+  let data = await readAsync(packagePath);
+  data = JSON.parse(data);
+  console.log(data);
+}
+
+init();
