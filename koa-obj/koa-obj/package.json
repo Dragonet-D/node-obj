@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "koa": "^2.6.2",
-    "koa-views": "^6.1.4"
+    "koa-views": "^6.1.4",
+    "puppeteer": "^1.11.0"
   }
 }
