@@ -3,7 +3,7 @@ const { resolve } = require('path')
 const mongoose = require('mongoose')
 const Movie = mongoose.model('Movie')
 
-;(async () => {
+(async () => {
   const script = resolve(__dirname, '../crawler/latest-list')
   const child = cp.fork(script, [])
   let invoked = false
