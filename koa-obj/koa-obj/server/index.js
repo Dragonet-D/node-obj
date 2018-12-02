@@ -1,8 +1,19 @@
 const Koa = require("koa");
+const views = require("koa-views");
+const { resolve }  = require("path");
+
 const app = new Koa();
 
-app.use(ctx => {
-  ctx.body = "电影首页"
+app.use(views(resolve(__dirname, "./views"), {
+  extension: "pug"
+}));
+
+app.use(async ctx => {
+  await ctx.render("index", {
+    you: "Luke",
+    me: "hi"
+  });
+
 });
 
 app.listen(3000);
