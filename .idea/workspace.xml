@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e922d6-1370-4532-8c6f-2e9bf3302d99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa-obj/koa-obj/server/database/scheme/movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-obj/koa-obj/server/database/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-obj/koa-obj/server/database/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progress.md" beforeDir="false" afterPath="$PROJECT_DIR$/progress.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +26,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koa-obj/koa-obj/server/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="25">
+                <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/progress.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="175">
+                <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -55,7 +85,6 @@
         <option value="$PROJECT_DIR$/views/public/header.ejs" />
         <option value="$PROJECT_DIR$/views/login.ejs" />
         <option value="$PROJECT_DIR$/a.js" />
-        <option value="$PROJECT_DIR$/progress.md" />
         <option value="$PROJECT_DIR$/koa-obj/koa-test/a.js" />
         <option value="$PROJECT_DIR$/express-obj/pruductManage/b.js" />
         <option value="$PROJECT_DIR$/b.js" />
@@ -81,10 +110,11 @@
         <option value="$PROJECT_DIR$/koa-obj/koa-test/server/session.js" />
         <option value="$PROJECT_DIR$/koa-obj/koa-obj/package.json" />
         <option value="$PROJECT_DIR$/koa-obj/koa-obj/server/index.js" />
+        <option value="$PROJECT_DIR$/progress.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="955" />
     <option name="width" value="970" />
     <option name="height" value="1060" />
@@ -97,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,14 +150,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/koa-obj/koa-obj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -207,23 +237,25 @@
       <workItem from="1543496594418" duration="6572000" />
       <workItem from="1543667377158" duration="78000" />
       <workItem from="1543735744976" duration="2481000" />
+      <workItem from="1543755434245" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38381000" />
+    <option name="totallyTimeSpent" value="38418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="764" y="0" width="776" height="848" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30405405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14861295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5037129" side_tool="true" weight="0.32307693" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.31586403" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49628714" visible="true" weight="0.3226257" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49628714" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
@@ -257,7 +289,6 @@
     <entry file="file://$PROJECT_DIR$/express-obj/productManage/public/css/basic.css" />
     <entry file="file://$PROJECT_DIR$/express-obj/productManage/views/login.ejs" />
     <entry file="file://$PROJECT_DIR$/express-obj/productManage/views/product.ejs" />
-    <entry file="file://$PROJECT_DIR$/progress.md" />
     <entry file="file://$PROJECT_DIR$/koa-obj/koa-test/a.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -444,7 +475,31 @@
     <entry file="file://$PROJECT_DIR$/koa-obj/koa-obj/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progress.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
