@@ -9,6 +9,9 @@ http
   .listen(3000);
 */
 
+/**
+
+
 const Koa = require("koa");
 
 const app = new Koa();
@@ -24,6 +27,20 @@ app.use(async (ctx, next) => {
 
 app.use(ctx => {
   ctx.body = "hi koa";
+});
+
+app.listen(3000);
+*/
+const Kob = require("./kob");
+
+const app = new Kob();
+
+app.use((req, res) => {
+  res.writeHead(200, {
+    "Content-Type": "application/json"
+  });
+  // res.statusCode = 200;
+  res.end(JSON.stringify({ name: "Jerry" }));
 });
 
 app.listen(3000);
