@@ -6,6 +6,6 @@ module.exports = {
     return this.response.body;
   },
   set body(val) {
-    this.responsebody = val;
+    this.response.body = val;
   }
 };

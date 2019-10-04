@@ -1,6 +1,6 @@
 module.exports = {
   get body() {
-    return this.req.url;
+    return this._body;
   },
   set body(val) {
     this._body = val;

@@ -35,12 +35,13 @@ const Kob = require("./kob");
 
 const app = new Kob();
 
-app.use((req, res) => {
-  res.writeHead(200, {
-    "Content-Type": "application/json"
-  });
+app.use(ctx => {
+  // res.writeHead(200, {
+  //   "Content-Type": "application/json"
+  // });
   // res.statusCode = 200;
-  res.end(JSON.stringify({ name: "Jerry" }));
+  // res.end(JSON.stringify({ name: "Jerry" }));
+  ctx.body = "hi";
 });
 
 app.listen(3000);
