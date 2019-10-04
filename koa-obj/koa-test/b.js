@@ -12,6 +12,15 @@ http
 const Koa = require("koa");
 
 const app = new Koa();
+const { createReadStream } = require("fs");
+
+app.use(async (ctx, next) => {
+  if (ctx.path === "/favicon.ico") {
+    ctx.body = createReadStream("./favicon.ico");
+  } else {
+    await next();
+  }
+});
 
 app.use(ctx => {
   ctx.body = "hi koa";
