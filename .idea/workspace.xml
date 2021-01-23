@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e922d6-1370-4532-8c6f-2e9bf3302d99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/commonjs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/commonjs/lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/event/lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/run.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +65,15 @@
       <recent name="D:\obj\express-obj\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pfc/event" />
       <recent name="D:\obj\node-obj\koa-obj\koa-test\src" />
       <recent name="D:\obj\node-obj\express-obj\productManage" />
       <recent name="D:\obj\node-obj" />
       <recent name="D:\obj\express-obj" />
-      <recent name="D:\obj\express-obj\views" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js (1)">
+  <component name="RunManager" selected="Node.js.run.js">
     <configuration name="async.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/src/async.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="fourStypes.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/basic/fourStypes.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/server/index.js" working-dir="$PROJECT_DIR$">
@@ -79,16 +82,19 @@
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/src/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="run.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/pfc/run.js" working-dir="$PROJECT_DIR$/pfc">
+      <method v="2" />
+    </configuration>
     <configuration name="session.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/koa-obj/koa-test/server/session.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.run.js" />
         <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Node.js.session.js" />
         <item itemvalue="Node.js.async.js" />
         <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Node.js.fourStypes.js" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +131,8 @@
       <workItem from="1571056072779" duration="230000" />
       <workItem from="1604134265308" duration="344000" />
       <workItem from="1604143134807" duration="30000" />
+      <workItem from="1611316530244" duration="6358000" />
+      <workItem from="1611385498964" duration="395000" />
     </task>
     <servers />
   </component>
