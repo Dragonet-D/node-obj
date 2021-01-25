@@ -12,8 +12,6 @@ const root = {
   }
 }
 
-
-
 module.exports = function (query) {
   return graphql(schema, query, root).then(res => {
     return res
